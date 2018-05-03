@@ -90,8 +90,6 @@ open class Buffer(
           return cur.readLocalBit()
         }
       }
-      // manual throw
-      throw IndexOutOfBoundsException()
 
       // must catch (or exit 1)
     }
